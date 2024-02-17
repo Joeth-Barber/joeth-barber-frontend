@@ -9,14 +9,14 @@
 
   .dark {
     --dark: 0 0 5;
+    --second_dark: 0 0 10;
+    --gray: 0 0 17;
+    --blue: 220 100 50;
   }
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
   body {
-    @apply bg-dark text-foreground;
+    @apply bg-dark;
   }
 }
