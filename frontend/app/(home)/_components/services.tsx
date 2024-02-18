@@ -26,6 +26,7 @@ const Services = () => {
                       src="/haircut-icon.svg"
                       width={34}
                       height={34}
+                      loading="lazy"
                       alt="Corte de cabelo"
                     />
                   </div>
@@ -46,6 +47,7 @@ const Services = () => {
                       src="/beard-icon.svg"
                       width={34}
                       height={34}
+                      loading="lazy"
                       alt="Corte de cabelo"
                     />
                   </div>
@@ -66,6 +68,7 @@ const Services = () => {
                       src="/eyebrow.svg"
                       width={34}
                       height={34}
+                      loading="lazy"
                       alt="Corte de cabelo"
                     />
                   </div>
