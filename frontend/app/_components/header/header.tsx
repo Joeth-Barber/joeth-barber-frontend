@@ -83,7 +83,7 @@ const Header = () => {
               <div className="flex flex-col space-y-4 my-[20px] py-[20px] border-t border-second_dark">
                 <Link
                   className="bg-second_dark p-2 rounded-[10px] flex items-center gap-2 text-white text-[1rem] hover:bg-gray ease-in duration-150"
-                  href="#inicio"
+                  href="/login"
                 >
                   <LogIn size={18} />
                   Entrar

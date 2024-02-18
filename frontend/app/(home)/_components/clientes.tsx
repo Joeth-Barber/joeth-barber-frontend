@@ -13,7 +13,7 @@ const ClientesSection = () => {
         <h2 className="tracking-[.35rem] text-white/50 text-[1rem] font-medium uppercase">
           nossos clientes
         </h2>
-        <Carousel className="container">
+        <Carousel>
           <CarouselContent>
             <CarouselItem>
               <Card className="p-4 rounded-[10px] bg-second_dark border-none">

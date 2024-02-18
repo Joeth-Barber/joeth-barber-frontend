@@ -15,63 +15,92 @@ const Services = () => {
         </h2>
         <Carousel>
           <CarouselContent>
-            <CarouselItem className="grid grid-cols-2 gap-4">
+            <CarouselItem>
               <Card className="py-4 rounded-[10px] bg-dark border border-solid border-gray">
-                <CardContent className="flex flex-col items-center space-y-4">
-                  <h3 className="text-white font-medium text-[1rem] capitalize">
-                    corte de cabelo
+                <CardContent className="flex flex-col space-y-4">
+                  <span className="text-white/50 text-[1rem]">
+                    R$ <strong className="font-normal text-[1.5rem]">30</strong>
+                  </span>
+                  <h3 className="text-white font-medium text-[1.2rem] capitalize">
+                    corte simples
                   </h3>
-                  <div className="p-2 w-[60px] h-[60px] flex items-center justify-center rounded-full bg-blue">
-                    <Image
-                      src="/haircut-icon.svg"
-                      width={34}
-                      height={34}
-                      loading="lazy"
-                      alt="Corte de cabelo"
-                    />
-                  </div>
-                  <p className="w-full text-white/70 text-center text-[1rem]">
+                  <p className="w-full text-white/50 text-[1rem]">
                     Estilo personalizado com as últimas tendências.
                   </p>
                 </CardContent>
               </Card>
+            </CarouselItem>
+            <CarouselItem>
               <Card className="py-4 rounded-[10px] bg-dark border border-solid border-gray">
-                <CardContent className="flex flex-col items-center space-y-4">
-                  <h3 className="text-white font-medium text-[1rem] capitalize">
-                    barba
+                <CardContent className="flex flex-col space-y-4">
+                  <span className="text-white/50 text-[1rem]">
+                    R$ <strong className="font-normal text-[1.5rem]">35</strong>
+                  </span>
+                  <h3 className="text-white font-medium text-[1.2rem] capitalize">
+                    corte navalhado
                   </h3>
-                  <div className="p-2 w-[60px] h-[60px] flex items-center justify-center rounded-full bg-blue">
-                    <Image
-                      src="/beard-icon.svg"
-                      width={34}
-                      height={34}
-                      loading="lazy"
-                      alt="Corte de cabelo"
-                    />
-                  </div>
-                  <p className="w-full text-white/70 text-center text-[1rem]">
-                    Modelagem completa para destacar sua masculinidade.
+                  <p className="w-full text-white/50 text-[1rem]">
+                    Estilo personalizado com as últimas tendências.
                   </p>
                 </CardContent>
               </Card>
             </CarouselItem>
-            <CarouselItem className="grid grid-cols-2 gap-4">
-              <Card className="p-4 rounded-[10px] bg-dark border border-solid border-gray">
-                <CardContent className="flex flex-col items-center space-y-4">
-                  <h3 className="text-white font-medium text-[1rem] capitalize">
+            <CarouselItem>
+              <Card className="py-4 rounded-[10px] bg-dark border border-solid border-gray">
+                <CardContent className="flex flex-col space-y-4">
+                  <span className="text-white/50 text-[1rem]">
+                    R$ <strong className="font-normal text-[1.5rem]">20</strong>
+                  </span>
+                  <h3 className="text-white font-medium text-[1.2rem] capitalize">
+                    barba
+                  </h3>
+                  <p className="w-full text-white/50 text-[1rem]">
+                    Estilo personalizado com as últimas tendências.
+                  </p>
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="py-4 rounded-[10px] bg-dark border border-solid border-gray">
+                <CardContent className="flex flex-col space-y-4">
+                  <span className="text-white/50 text-[1rem]">
+                    R$ <strong className="font-normal text-[1.5rem]">10</strong>
+                  </span>
+                  <h3 className="text-white font-medium text-[1.2rem] capitalize">
                     sobrancelha
                   </h3>
-                  <div className="p-2 w-[60px] h-[60px] flex items-center justify-center rounded-full bg-blue">
-                    <Image
-                      src="/eyebrow.svg"
-                      width={34}
-                      height={34}
-                      loading="lazy"
-                      alt="Corte de cabelo"
-                    />
-                  </div>
-                  <p className="w-full text-white/70 text-center text-[1rem]">
-                    Expressão acentuada com modelagem precisa.
+                  <p className="w-full text-white/50 text-[1rem]">
+                    Estilo personalizado com as últimas tendências.
+                  </p>
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="py-4 rounded-[10px] bg-dark border border-solid border-gray">
+                <CardContent className="flex flex-col space-y-4">
+                  <span className="text-white/50 text-[1rem]">
+                    R$ <strong className="font-normal text-[1.5rem]">50</strong>
+                  </span>
+                  <h3 className="text-white font-medium text-[1.2rem] capitalize">
+                    progressiva
+                  </h3>
+                  <p className="w-full text-white/50 text-[1rem]">
+                    Estilo personalizado com as últimas tendências.
+                  </p>
+                </CardContent>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card className="py-4 rounded-[10px] bg-dark border border-solid border-gray">
+                <CardContent className="flex flex-col space-y-4">
+                  <span className="text-white/50 text-[1rem]">
+                    Preço a combinar
+                  </span>
+                  <h3 className="text-white font-medium text-[18px] capitalize">
+                    luzes ou platinado
+                  </h3>
+                  <p className="w-full text-white/50 text-[1rem]">
+                    Estilo personalizado com as últimas tendências.
                   </p>
                 </CardContent>
               </Card>
