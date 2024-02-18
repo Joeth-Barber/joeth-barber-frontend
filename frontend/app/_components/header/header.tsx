@@ -90,7 +90,7 @@ const Header = () => {
                 </Link>
                 <Link
                   className="bg-second_dark p-2 rounded-[10px] flex items-center gap-2 text-white text-[1rem] hover:bg-gray ease-in duration-150"
-                  href="#inicio"
+                  href="/register"
                 >
                   <UserPlus size={18} />
                   Cadastre-se

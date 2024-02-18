@@ -71,7 +71,7 @@ const Login = () => {
           <Link href="/register">
             <span className="text-[16px] text-white">
               Ainda não tem uma conta?{" "}
-              <strong className="text-blue">Cadastre-se</strong>
+              <strong className="underline">Cadastre-se</strong>
             </span>
           </Link>
         </div>

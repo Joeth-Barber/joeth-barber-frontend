@@ -2,7 +2,7 @@ import * as Yup from "yup";
 
 export const AuthValidationSchema = Yup.object().shape({
   name: Yup.string().required("Nome comepleto é obrigatório"),
-  phone: Yup.number().required("Celular é obrigatório"),
+  phone: Yup.string().required("Celular é obrigatório"),
   email: Yup.string().email().required("E-mail é obrigatório"),
   nickname: Yup.string().required("Apelido é obrigatório"),
   password: Yup.string()
