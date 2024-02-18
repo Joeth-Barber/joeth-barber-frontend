@@ -1,10 +1,10 @@
-import { Card, CardContent } from "@/app/_components/ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
 } from "@/app/_components/ui/carousel";
 import Image from "next/image";
+import Link from "next/link";
 
 const GaleriaFotos = () => {
   return (
@@ -18,7 +18,17 @@ const GaleriaFotos = () => {
         </h2>
         <Carousel>
           <CarouselContent>
-            <CarouselItem>
+            <CarouselItem className="grid grid-cols-2 gap-4">
+              <div className="w-full h-[300px] relative">
+                <Image
+                  src="/joeth_image.png"
+                  alt="corte de cabelo"
+                  fill
+                  loading="lazy"
+                  style={{ objectFit: "cover" }}
+                  className="rounded-[10px]"
+                />
+              </div>
               <div className="w-full h-[300px] relative">
                 <Image
                   src="/joeth_image.png"
@@ -30,7 +40,7 @@ const GaleriaFotos = () => {
                 />
               </div>
             </CarouselItem>
-            <CarouselItem>
+            <CarouselItem className="grid grid-cols-2 gap-4">
               <div className="w-full h-[300px] relative">
                 <Image
                   src="/joeth_image.png"
@@ -41,20 +51,6 @@ const GaleriaFotos = () => {
                   className="rounded-[10px]"
                 />
               </div>
-            </CarouselItem>
-            <CarouselItem>
-              <div className="w-full h-[300px] relative">
-                <Image
-                  src="/joeth_image.png"
-                  alt="corte de cabelo"
-                  fill
-                  loading="lazy"
-                  style={{ objectFit: "cover" }}
-                  className="rounded-[10px]"
-                />
-              </div>
-            </CarouselItem>
-            <CarouselItem>
               <div className="w-full h-[300px] relative">
                 <Image
                   src="/joeth_image.png"
@@ -68,6 +64,13 @@ const GaleriaFotos = () => {
             </CarouselItem>
           </CarouselContent>
         </Carousel>
+        <Link
+          href="/galeria"
+          target="_blank"
+          className="bg-blue w-fit text-white font-medium p-2 rounded-[10px] hover:bg-blue/60 duration-150"
+        >
+          Ver mais fotos
+        </Link>
       </div>
     </section>
   );

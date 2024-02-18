@@ -15,8 +15,8 @@ const Services = () => {
         </h2>
         <Carousel>
           <CarouselContent>
-            <CarouselItem>
-              <Card className="p-4 rounded-[10px] bg-dark border border-solid border-gray">
+            <CarouselItem className="grid grid-cols-2 gap-4">
+              <Card className="py-4 rounded-[10px] bg-dark border border-solid border-gray">
                 <CardContent className="flex flex-col items-center space-y-4">
                   <h3 className="text-white font-medium text-[1rem] capitalize">
                     corte de cabelo
@@ -30,14 +30,12 @@ const Services = () => {
                       alt="Corte de cabelo"
                     />
                   </div>
-                  <p className="w-[70%] text-white/70 text-center text-[1rem]">
+                  <p className="w-full text-white/70 text-center text-[1rem]">
                     Estilo personalizado com as últimas tendências.
                   </p>
                 </CardContent>
               </Card>
-            </CarouselItem>
-            <CarouselItem>
-              <Card className="p-4 rounded-[10px] bg-dark border border-solid border-gray">
+              <Card className="py-4 rounded-[10px] bg-dark border border-solid border-gray">
                 <CardContent className="flex flex-col items-center space-y-4">
                   <h3 className="text-white font-medium text-[1rem] capitalize">
                     barba
@@ -51,13 +49,13 @@ const Services = () => {
                       alt="Corte de cabelo"
                     />
                   </div>
-                  <p className="w-[70%] text-white/70 text-center text-[1rem]">
+                  <p className="w-full text-white/70 text-center text-[1rem]">
                     Modelagem completa para destacar sua masculinidade.
                   </p>
                 </CardContent>
               </Card>
             </CarouselItem>
-            <CarouselItem>
+            <CarouselItem className="grid grid-cols-2 gap-4">
               <Card className="p-4 rounded-[10px] bg-dark border border-solid border-gray">
                 <CardContent className="flex flex-col items-center space-y-4">
                   <h3 className="text-white font-medium text-[1rem] capitalize">
@@ -72,7 +70,7 @@ const Services = () => {
                       alt="Corte de cabelo"
                     />
                   </div>
-                  <p className="w-[70%] text-white/70 text-center text-[1rem]">
+                  <p className="w-full text-white/70 text-center text-[1rem]">
                     Expressão acentuada com modelagem precisa.
                   </p>
                 </CardContent>
