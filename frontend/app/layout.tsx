@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html className="scroll-smooth" lang="en">
-      <body className={`${outfit.className} dark`}>
+      <body className={`${outfit.className}`}>
         <Header />
         {children}
         <Footer />
