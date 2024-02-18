@@ -19,7 +19,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="bg-second_dark flex items-center justify-between container py-[1rem] mx-auto">
+    <header className="fixed z-50 bg-second_dark flex items-center justify-between container py-[1rem] mx-auto">
       <h1 className="text-white font-bold text-[1.5rem]">Joeth</h1>
       <Sheet>
         <SheetTrigger asChild>

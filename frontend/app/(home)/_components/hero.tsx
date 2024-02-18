@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section id="inicio" className="py-[2rem]">
+    <section id="inicio" className="py-[6rem]">
       <div className="container mx-auto">
         <div className="flex flex-col space-y-10">
           <div className="flex flex-col space-y-4">
