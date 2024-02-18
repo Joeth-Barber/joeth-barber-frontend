@@ -21,7 +21,7 @@ const GaleriaFotos = () => {
             <CarouselItem className="grid grid-cols-2 gap-4">
               <div className="w-full h-[300px] relative">
                 <Image
-                  src="/joeth_image.png"
+                  src="/corte-image5.jpg"
                   alt="corte de cabelo"
                   fill
                   loading="lazy"
@@ -31,7 +31,7 @@ const GaleriaFotos = () => {
               </div>
               <div className="w-full h-[300px] relative">
                 <Image
-                  src="/joeth_image.png"
+                  src="/corte-image6.jpg"
                   alt="corte de cabelo"
                   fill
                   loading="lazy"
@@ -43,7 +43,7 @@ const GaleriaFotos = () => {
             <CarouselItem className="grid grid-cols-2 gap-4">
               <div className="w-full h-[300px] relative">
                 <Image
-                  src="/joeth_image.png"
+                  src="/corte-image7.jpg"
                   alt="corte de cabelo"
                   fill
                   loading="lazy"
@@ -53,7 +53,7 @@ const GaleriaFotos = () => {
               </div>
               <div className="w-full h-[300px] relative">
                 <Image
-                  src="/joeth_image.png"
+                  src="/corte-image4.jpg"
                   alt="corte de cabelo"
                   fill
                   loading="lazy"

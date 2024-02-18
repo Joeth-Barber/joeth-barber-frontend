@@ -20,7 +20,7 @@ const HeroSection = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="w-full h-[240px] relative">
               <Image
-                src="/joeth_image.png"
+                src="/corte-image2.jpg"
                 alt="corte de cabelo"
                 fill
                 style={{ objectFit: "cover" }}
@@ -29,7 +29,7 @@ const HeroSection = () => {
             </div>
             <div className="w-full h-[240px] relative">
               <Image
-                src="/joeth_image.png"
+                src="/corte-image.jpg"
                 alt="corte de cabelo"
                 fill
                 style={{ objectFit: "cover" }}
